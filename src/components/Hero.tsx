@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.3, duration: 0.8 }}
-            className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight"
+            className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-800 leading-tight"
           >
             Создаем{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-orange-500">
@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto leading-relaxed"
+            className="text-xl md:text-2xl text-gray-700 max-w-3xl mx-auto leading-relaxed"
           >
             Автоматизируйте ваш бизнес с помощью умных Telegram ботов. 
             От идеи до запуска за 7 дней!
@@ -61,19 +61,19 @@ const Hero: React.FC = () => {
             initial={{ opacity: 0, y: 30 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="flex flex-wrap justify-center gap-6 text-gray-200"
+            className="flex flex-wrap justify-center gap-6 text-gray-700"
           >
-            <div className="flex items-center space-x-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-md px-4 py-2 rounded-full border border-purple-400/30">
-              <Zap className="w-5 h-5 text-yellow-400" />
-              <span>Быстрая разработка</span>
+            <div className="flex items-center space-x-2 bg-gradient-to-r from-purple-500/40 to-pink-500/40 backdrop-blur-md px-4 py-2 rounded-full border border-purple-400/50 shadow-lg">
+              <Zap className="w-5 h-5 text-yellow-300" />
+              <span className="font-medium">Быстрая разработка</span>
             </div>
-            <div className="flex items-center space-x-2 bg-gradient-to-r from-pink-500/20 to-orange-500/20 backdrop-blur-md px-4 py-2 rounded-full border border-pink-400/30">
-              <MessageCircle className="w-5 h-5 text-cyan-400" />
-              <span>24/7 поддержка</span>
+            <div className="flex items-center space-x-2 bg-gradient-to-r from-pink-500/40 to-orange-500/40 backdrop-blur-md px-4 py-2 rounded-full border border-pink-400/50 shadow-lg">
+              <MessageCircle className="w-5 h-5 text-cyan-300" />
+              <span className="font-medium">24/7 поддержка</span>
             </div>
-            <div className="flex items-center space-x-2 bg-gradient-to-r from-orange-500/20 to-red-500/20 backdrop-blur-md px-4 py-2 rounded-full border border-orange-400/30">
-              <Bot className="w-5 h-5 text-green-400" />
-              <span>Готовый к запуску</span>
+            <div className="flex items-center space-x-2 bg-gradient-to-r from-orange-500/40 to-red-500/40 backdrop-blur-md px-4 py-2 rounded-full border border-orange-400/50 shadow-lg">
+              <Bot className="w-5 h-5 text-green-300" />
+              <span className="font-medium">Готовый к запуску</span>
             </div>
           </motion.div>
 
@@ -117,7 +117,7 @@ const Hero: React.FC = () => {
               >
                 50+
               </motion.div>
-              <div className="text-gray-300">Реализованных проектов</div>
+              <div className="text-gray-600">Реализованных проектов</div>
             </div>
             <div className="text-center">
               <motion.div
@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
               >
                 7 дней
               </motion.div>
-              <div className="text-gray-300">Среднее время разработки</div>
+              <div className="text-gray-600">Среднее время разработки</div>
             </div>
             <div className="text-center">
               <motion.div
@@ -139,7 +139,7 @@ const Hero: React.FC = () => {
               >
                 100%
               </motion.div>
-              <div className="text-gray-300">Довольных клиентов</div>
+              <div className="text-gray-600">Довольных клиентов</div>
             </div>
           </motion.div>
         </motion.div>

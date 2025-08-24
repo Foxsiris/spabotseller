@@ -15,7 +15,7 @@ const AnimatedBackground: React.FC = () => {
           repeat: Infinity,
           ease: "easeInOut"
         }}
-        className="absolute top-20 left-10 w-64 h-64 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full blur-3xl"
+        className="absolute top-20 left-10 w-64 h-64 bg-gradient-to-r from-purple-500/40 to-pink-500/40 rounded-full blur-3xl"
       />
       
       <motion.div
@@ -29,7 +29,7 @@ const AnimatedBackground: React.FC = () => {
           ease: "easeInOut",
           delay: 1
         }}
-        className="absolute top-40 right-20 w-48 h-48 bg-gradient-to-r from-pink-500/20 to-orange-500/20 rounded-full blur-3xl"
+        className="absolute top-40 right-20 w-48 h-48 bg-gradient-to-r from-pink-500/40 to-orange-500/40 rounded-full blur-3xl"
       />
       
       <motion.div
@@ -43,7 +43,7 @@ const AnimatedBackground: React.FC = () => {
           ease: "easeInOut",
           delay: 2
         }}
-        className="absolute bottom-40 left-20 w-80 h-80 bg-gradient-to-r from-orange-500/20 to-red-500/20 rounded-full blur-3xl"
+        className="absolute bottom-40 left-20 w-80 h-80 bg-gradient-to-r from-orange-500/40 to-red-500/40 rounded-full blur-3xl"
       />
       
       <motion.div
@@ -57,7 +57,7 @@ const AnimatedBackground: React.FC = () => {
           ease: "easeInOut",
           delay: 3
         }}
-        className="absolute bottom-20 right-10 w-56 h-56 bg-gradient-to-r from-purple-500/20 to-indigo-500/20 rounded-full blur-3xl"
+        className="absolute bottom-20 right-10 w-56 h-56 bg-gradient-to-r from-purple-500/40 to-indigo-500/40 rounded-full blur-3xl"
       />
 
       {/* Центральные вращающиеся элементы */}
@@ -70,7 +70,7 @@ const AnimatedBackground: React.FC = () => {
           repeat: Infinity,
           ease: "linear"
         }}
-        className="absolute top-1/3 left-1/3 w-96 h-96 bg-gradient-to-r from-blue-500/10 to-cyan-500/10 rounded-full blur-3xl"
+        className="absolute top-1/3 left-1/3 w-96 h-96 bg-gradient-to-r from-purple-500/30 to-pink-500/30 rounded-full blur-3xl"
       />
       
       <motion.div
@@ -83,7 +83,7 @@ const AnimatedBackground: React.FC = () => {
           ease: "linear",
           delay: 5
         }}
-        className="absolute bottom-1/3 right-1/3 w-72 h-72 bg-gradient-to-r from-indigo-500/10 to-blue-500/10 rounded-full blur-3xl"
+        className="absolute bottom-1/3 right-1/3 w-72 h-72 bg-gradient-to-r from-pink-500/30 to-orange-500/30 rounded-full blur-3xl"
       />
 
       {/* Дополнительные мелкие элементы */}

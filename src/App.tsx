@@ -12,6 +12,8 @@ function App() {
   return (
     <div className="App">
       <AnimatedBackground />
+      {/* Светло-синий градиентный фон для лучшей читаемости */}
+      <div className="fixed inset-0 bg-gradient-to-br from-blue-50/90 via-cyan-50/80 to-blue-100/90 -z-5"></div>
       <Header />
       <Hero />
       <Features />
