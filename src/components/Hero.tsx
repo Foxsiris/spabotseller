@@ -38,11 +38,11 @@ const Hero: React.FC = () => {
             className="text-4xl md:text-6xl lg:text-7xl font-bold text-white leading-tight"
           >
             Создаем{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-orange-500">
               Telegram ботов
             </span>
             <br />
-            под ключ
+            под ключ 🚀
           </motion.h1>
 
           {/* Subtitle */}
@@ -63,16 +63,16 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="flex flex-wrap justify-center gap-6 text-gray-200"
           >
-            <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
-              <Zap className="w-5 h-5 text-blue-400" />
+            <div className="flex items-center space-x-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-md px-4 py-2 rounded-full border border-purple-400/30">
+              <Zap className="w-5 h-5 text-yellow-400" />
               <span>Быстрая разработка</span>
             </div>
-            <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
+            <div className="flex items-center space-x-2 bg-gradient-to-r from-pink-500/20 to-orange-500/20 backdrop-blur-md px-4 py-2 rounded-full border border-pink-400/30">
               <MessageCircle className="w-5 h-5 text-cyan-400" />
               <span>24/7 поддержка</span>
             </div>
-            <div className="flex items-center space-x-2 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full">
-              <Bot className="w-5 h-5 text-blue-400" />
+            <div className="flex items-center space-x-2 bg-gradient-to-r from-orange-500/20 to-red-500/20 backdrop-blur-md px-4 py-2 rounded-full border border-orange-400/30">
+              <Bot className="w-5 h-5 text-green-400" />
               <span>Готовый к запуску</span>
             </div>
           </motion.div>
@@ -87,7 +87,7 @@ const Hero: React.FC = () => {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-gradient-to-r from-blue-500 to-cyan-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-2xl hover:shadow-blue-500/25 transition-all duration-200 flex items-center space-x-2"
+              className="bg-gradient-to-r from-purple-600 via-pink-600 to-orange-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-2xl hover:shadow-purple-500/25 transition-all duration-200 flex items-center space-x-2"
             >
               <span>Заказать бота</span>
               <ArrowRight className="w-5 h-5" />
@@ -113,7 +113,7 @@ const Hero: React.FC = () => {
                 initial={{ scale: 0 }}
                 animate={inView ? { scale: 1 } : {}}
                 transition={{ delay: 0.8, type: "spring", stiffness: 200 }}
-                className="text-4xl font-bold text-blue-400 mb-2"
+                className="text-4xl font-bold text-purple-400 mb-2"
               >
                 50+
               </motion.div>
@@ -124,7 +124,7 @@ const Hero: React.FC = () => {
                 initial={{ scale: 0 }}
                 animate={inView ? { scale: 1 } : {}}
                 transition={{ delay: 0.9, type: "spring", stiffness: 200 }}
-                className="text-4xl font-bold text-cyan-400 mb-2"
+                className="text-4xl font-bold text-pink-400 mb-2"
               >
                 7 дней
               </motion.div>
